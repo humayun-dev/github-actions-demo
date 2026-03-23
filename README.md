@@ -10,7 +10,7 @@ It automatically runs tests and checks code quality every time you push code to 
 ## Project Structure
 ```text
 github-actions-demo/
-├── app.py            # Your main application code
+├── app.py            # Main application code
 ├── test_app.py       # Unit tests for app.py
 ├── requirements.txt  # Python dependencies
 └── .github/
