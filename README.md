@@ -8,14 +8,14 @@ It automatically runs tests and checks code quality every time you push code to 
 ---
 
 ## Project Structure
+```text
 github-actions-demo/
-│
-├── app.py # Your main application code
-├── test_app.py # Unit tests for app.py
-├── requirements.txt # Python dependencies
+├── app.py            # Your main application code
+├── test_app.py       # Unit tests for app.py
+├── requirements.txt  # Python dependencies
 └── .github/
-└── workflows/
-└── ci.yml # GitHub Actions workflow file
+    └── workflows/
+        └── ci.yml   # GitHub Actions workflow file
 
 
 ---
